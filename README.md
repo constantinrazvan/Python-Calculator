@@ -10,5 +10,5 @@ Copy the repo trough Terminal `git clone https://github.com/constantinrazvan/Pyt
 # Now is the moment for launching the Calculator 
 Write in terminal : 
 **1**`cd Desktop`
-**2** 'cd Python-Calculator' 
-**3** 'python3 main.py' 
+**2** `cd Python-Calculator` 
+**3** `python3 main.py`
