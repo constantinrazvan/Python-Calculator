@@ -6,7 +6,7 @@ root.title("Simple Calculator")
 e = Entry(root, width=35, borderwidth=5)
 e.grid(row=0, column=0, columnspan=3)
 
-#Functii 
+#functions
 def button_click(number):
     current = e.get()
     e.delete(0, END)
@@ -26,7 +26,7 @@ def button_equal():
     e.delete(0, END)
     e.insert(0, f_num + int(second_number))
 
-#Butoane
+#buttons
 button_1 = Button(root, text="1", padx=40, pady=20, command=lambda: button_click(1))
 button_2 = Button(root, text="2", padx=40, pady=20, command=lambda: button_click(2))
 button_3 = Button(root, text="3", padx=40, pady=20, command=lambda: button_click(3))
@@ -41,7 +41,7 @@ button_add = Button(root, text="+", padx=40, pady=20, command=button_add)
 button_equal = Button(root, text="=", padx=40, pady=20, command=button_equal)
 button_clear = Button(root, text="C", padx=40, pady=20, command=button_clear)
 
-#Aranjarea Butoanelor
+#alignment buttons
 button_1.grid(row=3, column=0)
 button_2.grid(row=3, column=1)
 button_3.grid(row=3, column=2)
@@ -60,5 +60,5 @@ button_add.grid(row=4, column=2)
 button_clear.grid(row=5, column=1)
 
 
-#Apelam functia
+#call function
 root.mainloop()
